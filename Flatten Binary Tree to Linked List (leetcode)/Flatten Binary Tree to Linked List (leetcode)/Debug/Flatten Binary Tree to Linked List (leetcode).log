@@ -1,0 +1,14 @@
+﻿生成启动时间为 2014/6/7 21:32:21。
+     1>项目“F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Flatten Binary Tree to Linked List (leetcode)\Flatten Binary Tree to Linked List (leetcode).vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Flatten Binary Tree to Linked List (leetcode).pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Flatten Binary Tree to Linked List (leetcode).cpp"
+         Flatten Binary Tree to Linked List (leetcode).cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Debug\Flatten Binary Tree to Linked List (leetcode).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Debug\Flatten Binary Tree to Linked List (leetcode).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Debug\Flatten Binary Tree to Linked List (leetcode).lib" /MACHINE:X86 "Debug\Flatten Binary Tree to Linked List (leetcode).obj"
+         Debug\stdafx.obj
+         Flatten Binary Tree to Linked List (leetcode).vcxproj -> F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Debug\Flatten Binary Tree to Linked List (leetcode).exe
+     1>已完成生成项目“F:\algrithmC++\Flatten Binary Tree to Linked List (leetcode)\Flatten Binary Tree to Linked List (leetcode)\Flatten Binary Tree to Linked List (leetcode).vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.88

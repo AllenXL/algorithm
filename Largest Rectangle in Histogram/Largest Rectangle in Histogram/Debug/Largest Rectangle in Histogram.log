@@ -1,0 +1,24 @@
+﻿生成启动时间为 2014/6/21 20:48:30。
+     1>项目“F:\algrithmC++\Largest Rectangle in Histogram\Largest Rectangle in Histogram\Largest Rectangle in Histogram.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(125): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(10): warning C4018: “<”: 有符号/无符号不匹配
+                 f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(140): 参见对正在编译的函数 模板 实例化“void show<std::vector<_Ty>>(std::vector<std::vector<_Ty>> &)”的引用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>f:\algrithmc++\largest rectangle in histogram\largest rectangle in histogram\main.cpp(12): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\algrithmC++\Largest Rectangle in Histogram\Debug\Largest Rectangle in Histogram.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\algrithmC++\Largest Rectangle in Histogram\Debug\Largest Rectangle in Histogram.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\algrithmC++\Largest Rectangle in Histogram\Debug\Largest Rectangle in Histogram.lib" /MACHINE:X86 Debug\main.obj
+         Largest Rectangle in Histogram.vcxproj -> F:\algrithmC++\Largest Rectangle in Histogram\Debug\Largest Rectangle in Histogram.exe
+     1>已完成生成项目“F:\algrithmC++\Largest Rectangle in Histogram\Largest Rectangle in Histogram\Largest Rectangle in Histogram.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.19
