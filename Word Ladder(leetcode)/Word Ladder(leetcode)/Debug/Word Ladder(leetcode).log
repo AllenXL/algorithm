@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/6/3 15:28:15。
+     1>项目“F:\algrithmC++\Word Ladder(leetcode)\Word Ladder(leetcode)\Word Ladder(leetcode).vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(241): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(275): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(312): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(333): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(367): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\word ladder(leetcode)\word ladder(leetcode)\main.cpp(369): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\algrithmC++\Word Ladder(leetcode)\Debug\Word Ladder(leetcode).exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\algrithmC++\Word Ladder(leetcode)\Debug\Word Ladder(leetcode).pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\algrithmC++\Word Ladder(leetcode)\Debug\Word Ladder(leetcode).lib" /MACHINE:X86 Debug\main.obj
+         Word Ladder(leetcode).vcxproj -> F:\algrithmC++\Word Ladder(leetcode)\Debug\Word Ladder(leetcode).exe
+     1>已完成生成项目“F:\algrithmC++\Word Ladder(leetcode)\Word Ladder(leetcode)\Word Ladder(leetcode).vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.91

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1397315432 source:f:\algrithmc++\reversewords\main.cpp
+	<iostream>
+	<string>
+

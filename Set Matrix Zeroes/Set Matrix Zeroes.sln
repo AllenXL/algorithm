@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set Matrix Zeroes", "Set Matrix Zeroes\Set Matrix Zeroes.vcxproj", "{F1949E30-381B-434A-AF0D-D1FB32AA2003}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1949E30-381B-434A-AF0D-D1FB32AA2003}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1949E30-381B-434A-AF0D-D1FB32AA2003}.Debug|Win32.Build.0 = Debug|Win32
+		{F1949E30-381B-434A-AF0D-D1FB32AA2003}.Release|Win32.ActiveCfg = Release|Win32
+		{F1949E30-381B-434A-AF0D-D1FB32AA2003}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

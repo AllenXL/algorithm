@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "findMostNumArray", "findMostNumArray\findMostNumArray.vcproj", "{3436B5DE-654A-4BA9-9D68-272C6E8FE91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3436B5DE-654A-4BA9-9D68-272C6E8FE91D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3436B5DE-654A-4BA9-9D68-272C6E8FE91D}.Debug|Win32.Build.0 = Debug|Win32
+		{3436B5DE-654A-4BA9-9D68-272C6E8FE91D}.Release|Win32.ActiveCfg = Release|Win32
+		{3436B5DE-654A-4BA9-9D68-272C6E8FE91D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

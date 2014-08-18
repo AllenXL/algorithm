@@ -1,0 +1,19 @@
+﻿生成启动时间为 2014/3/23 22:46:59。
+     1>项目“F:\algrithmC++\shuffle\shuffle\shuffle.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\shuffle.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt shuffle.cpp
+         shuffle.cpp
+     1>f:\algrithmc++\shuffle\shuffle\shuffle.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\algrithmc++\shuffle\shuffle\shuffle.cpp(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>f:\algrithmc++\shuffle\shuffle\shuffle.cpp(118): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\algrithmC++\shuffle\Debug\shuffle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\algrithmC++\shuffle\Debug\shuffle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\algrithmC++\shuffle\Debug\shuffle.lib" /MACHINE:X86 /SAFESEH Debug\shuffle.obj
+         Debug\stdafx.obj
+         shuffle.vcxproj -> F:\algrithmC++\shuffle\Debug\shuffle.exe
+     1>已完成生成项目“F:\algrithmC++\shuffle\shuffle\shuffle.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.95
