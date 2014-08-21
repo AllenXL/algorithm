@@ -35,17 +35,17 @@ Icon
 .Spotlight-V100
 .Trashes
 
-.sln
-.sdf
-.vcxproj
-.filters
-.pdb
-.idb
-.obj
-.tlog
-.log
-.lastbuildstate
-.exe
-.ilk
-.pdb
+*.sln
+*.sdf
+*.vcxproj
+*.filters
+*.pdb
+*.idb
+*.obj
+*.tlog
+*.log
+*.lastbuildstate
+*.exe
+*.ilk
+*.pdb
 
