@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
+using namespace std;  
 
 //排列问题，三种方法， DFS， DP， next_permulation
 //方法一、DFS
