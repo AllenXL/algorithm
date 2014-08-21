@@ -48,4 +48,5 @@ Icon
 *.exe
 *.ilk
 *.pdb
+*.suo
 
