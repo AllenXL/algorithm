@@ -46,13 +46,14 @@ vector<string> generateParenthesis(int n)
 
 void show(vector<string>& res)
 {
+	cout << res.size() << endl;
 	for (int i = 0; i < res.size(); ++i)
 		cout << res[i] << endl;
 }
 
 int main()
 {
-	show(generateParenthesis(3));
+	show(generateParenthesis(6));
 	int aa;
 	cin >> aa;
 	return 0;

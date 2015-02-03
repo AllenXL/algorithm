@@ -6,30 +6,31 @@ using namespace std;
 
 //两种partition方式
 //方式一、跳坑式
-int AdjustArray(int*a, int first, int last)
+int partition(int*a, int first, int last)
 {
-	int pivot=a[first];
-	int i=first,j=last;
+	int pivot = a[first];
+	int i = first, j = last;
 
-	while(i<j)
+	while(i < j)
 	{
-		while(i<j&& pivot<a[j])
+		while(i < j && pivot < a[j])
 			j--;
-		if(i<j)
+		if(i < j)
 		{
-			a[i]=a[j];
+			a[i] = a[j];
 			i++;
 		}
-		while(i<j&&pivot>a[i])
+
+		while(i < j && pivot >= a[i])
 			i++;
-		if(i<j)
+		if(i < j)
 		{
-			a[j]=a[i];
+			a[j] = a[i];
 			j--;
 		}
 	}
 
-	a[i]=pivot;
+	a[i] = pivot;
 	return i;
 }
 
@@ -44,7 +45,9 @@ void swap(int* arr, int l, int r)
 }
 
 //方式二、交换式
-int partition(int* arr, int left, int right)
+//以下代码有bug，当数组有重复数字的时候会死循环
+//本质上是对等于pivot时的情况处理不当，建议还是用上面的算法
+int partition2(int* arr, int left, int right)
 {
 	int mid = left + (right - left) / 2;
 	int pivot = arr[mid];
@@ -59,6 +62,8 @@ int partition(int* arr, int left, int right)
 		if (left < right)
 		{
 			swap(arr, left, right);
+			//left++;
+			//right--;
 		}
 	}
 	return left;
@@ -78,15 +83,17 @@ void QuickSort(int* a,int first,int last)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int a[]={1, 10, 8, 5, 2, 20};
+	int a[]={2, 1, 1, 1, 2};
 	int len = sizeof(a) / sizeof(int);
-	QuickSort(a, 0, len - 1);
+
+	cout << partition(a, 0, len - 1) << endl;
+	cout << endl;
+
+	//QuickSort(a, 0, len - 1);
+
 	for(int i=0; i < len; i++)
-		cout<<a[i]<<endl;
-	char * str="hello";
-	cout<<sizeof(*str)<<endl;
-	int i=65536;
-	cout<<i<<endl;
+		cout << a[i] << " ";
+
 	return 0;
 }
 

@@ -1,0 +1,74 @@
+http://www.cnblogs.com/kkgreen/archive/2011/06/26/2090702.html
+
+感觉最重要的还是：怎么根据问题，抽象出一个量f(i)或f（i,j)，这个量必须具有合适的意义，然后再据此搞出递推公式，再看该分解是
+重叠还是独立的，进而采用递归或DP（填矩阵，可能要优化空间复杂度）来编程。
+
+
+
+总括而言，动态规划利用： 
+
+1) 重复子问题 
+
+2) 最优子结构 
+
+3) 缓存 
+
+动态规划通常采用以下两种方式中的一种两个办法： 
+
+自顶向下：将问题划分为若干子问题，求解这些子问题并保存结果以免重复计算。该方法将递归和缓存结合在一起。 
+
+自下而上：先行求解所有可能用到的子问题，然后用其构造更大问题的解。该方法在节省堆栈空间和减少函数调用数量上略有优势，但有时想找出给定问题的所有子问题并不那么直观。 
+
+为了提高按名传递（call-by-name，这一机制与按需传递call-by-need相关，复习一下参数传递的各种规则吧，简单说一下，按名传递允许改变实参值）的效率，一些编程语言将函数的返回值“自动”
+缓存在函数的特定参数集合中。一些语言将这一特性尽可能简化（如Scheme、Common Lisp和Perl），也有一些语言需要进行特殊扩展（如C++，C++中使用的是按值传递和按引用传递，
+因此C++中本无自动缓存机制，需自行实现，具体实现的一个例子是Automated Memoization in C++）。无论如何，只有指称透明（referentially transparent，
+指称透明是指在程序中使用表达式、函数本身或以其值替换对程序结果没有任何影响）函数才具有这一特性。 
+
+例子 
+1. Fibonacci序列 
+
+寻找Fibonacci序列中第n个数，基于其数学定义的直接实现： 
+
+   function fib(n)
+       if n = 0 
+           return 0
+       else if n = 1
+           return 1
+       return fib(n-1) + fib(n-2) 
+
+如果我们调用fib(5)，将产生一棵对于同一值重复计算多次的调用树： 
+
+fib(5) 
+fib(4) + fib(3) 
+(fib(3) + fib(2)) + (fib(2) + fib(1)) 
+((fib(2) + fib(1)) + (fib(1) + fib(0))) + ((fib(1) + fib(0)) + fib(1)) 
+(((fib(1) + fib(0)) + fib(1)) + (fib(1) + fib(0))) + ((fib(1) + fib(0)) + fib(1)) 
+特别是，fib(2)计算了3次。在更大规模的例子中，还有更多fib的值被重复计算，将消耗指数级时间。 
+
+现在，假设我们有一个简单的映射（map）对象m，为每一个计算过的fib及其返回值建立映射，修改上面的函数fib，使用并不断更新m。新的函数将只需O(n)的时间，而非指数时间： 
+
+   var m := map(0 → 1, 1 → 1)
+   function fib(n)
+       if map m does not contain key n
+           m[n] := fib(n-1) + fib(n-2)
+       return m[n] 
+
+这一保存已计算出的数值的技术即被称为缓存，这儿使用的是自顶向下的方法：先将问题划分为若干子问题，然后计算和存储值。 
+
+在自下而上的方法中，我们先计算较小的fib，然后基于其计算更大的fib。这种方法也只花费线性（O(n)）时间，因为它包含一个n-1次的循环。然而，这一方法只需要常数（O(1)）的空间，
+相反，自顶向下的方法则需要O(n)的空间来储存映射关系。 
+
+   function fib(n)
+       var previousFib := 0, currentFib := 1
+       if n = 0 
+           return 0
+       else if n = 1
+           return 1
+       repeat n-1 times
+           var newFib := previousFib + currentFib
+           previousFib := currentFib
+           currentFib  := newFib
+       return currentFib 
+
+在这两个例子，我们都只计算fib(2)一次，然后用它来计算fib(3)和fib(4)，而不是每次都重新计算。 
+

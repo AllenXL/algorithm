@@ -17,7 +17,8 @@ void dfs(vector<int>& num, int idx, vector<int>& permute, vector<vector<int> >& 
 		int j;
 		for (j = idx; j < i; j++)
 		{
-			if (num[j] == num[i])  //去重
+			if (num[j] == num[i])  //swap以后其实已经乱序了，所以没必要sort，需要逐位比较。
+				                   //如0, 1， 2， 2， 2， 5  -> 2， 1， 2， 0， 2， 5  中间连续的2在swap后已经断了
 				break;
 		}
 		if (j == i)
@@ -30,7 +31,6 @@ void dfs(vector<int>& num, int idx, vector<int>& permute, vector<vector<int> >& 
 		}
 	}
 }
-
 
 vector<vector<int> > permuteUnique(vector<int> &num)
 {

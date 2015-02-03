@@ -1,0 +1,4 @@
+http://www.tuicool.com/articles/UjQV7n
+就是把整数看出位串，去统计每个位中1的个数，满3重新计数。
+one two three是三个标记整数，跟新的时候，要结合A[i]和前一个标记，比如，three的更新要结合A[i]和two。
+注意：如果twos的某位是1,那说明这位累计净剩的1为两个，单该位是0，你没法确定累计净剩，需要参考one/three的信息。

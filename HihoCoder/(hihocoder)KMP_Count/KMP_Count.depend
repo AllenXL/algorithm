@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1409496083 source:c:\users\xulong\desktop\test\(hihocoder)kmp_count\main.cpp
+	<string.h>
+	<iostream>
+	<string>
+

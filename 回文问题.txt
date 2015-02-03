@@ -1,0 +1,3 @@
+最小分割http://www.ituring.com.cn/article/57155
+
+最长回文：将字符串逆序，再与原字符串求最长公共子串。
